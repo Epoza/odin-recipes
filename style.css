@@ -1,0 +1,27 @@
+* {
+    font-family: monospace;
+    background-color: lightslategray;
+    text-align: center;
+}
+
+.list {
+    font-size: x-large;
+}
+
+.homepage {
+    color: powderblue;
+    font-size: 42px;
+}
+
+.list.steak {
+    color: salmon;
+}
+
+.list.cookies {
+    color: tan;
+}
+
+.list.poppers {
+    color: whitesmoke;
+}
+
