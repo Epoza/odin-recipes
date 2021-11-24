@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-.list {
+#homelist {
     font-size: x-large;
 }
 
@@ -13,15 +13,26 @@
     font-size: 42px;
 }
 
-.list.steak {
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+li {
+    font-size: large;
+}
+
+li.steak {
     color: salmon;
 }
 
-.list.cookies {
+li.cookies {
     color: tan;
 }
 
-.list.poppers {
+li.poppers {
     color: whitesmoke;
 }
-
