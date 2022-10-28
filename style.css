@@ -1,8 +1,27 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body {
     font-family: monospace;
     background-color: lightslategray;
+}
+
+.home, .recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingredient-list{
     text-align: center;
 }
+
+ul, ol {
+    
+    display: inline-block;
+    text-align: left;
+}
+
 
 #homelist {
     font-size: x-large;
@@ -14,6 +33,7 @@
 }
 
 p {
+    width: 40vw;
     font-size: 14px;
 }
 
@@ -22,6 +42,9 @@ h2 {
 }
 
 li {
+    width: 40vw;
+    overflow-wrap: break-word;
+    height: auto;
     font-size: large;
 }
 
