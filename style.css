@@ -1,16 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 body {
-    font-family: monospace;
+    font-family:'DM Sans' ,monospace;
     background-color: lightslategray;
 }
 
-.home, .recipe{
+.recipe{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+/* For index.html images and text links */
+.home {
+    text-align: center;
+}
+
+.recipe-links{
+    width:200px;
+    /*display: inline-block;*/
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+/* Removes list style */
+a.rmv-def-style {
+    text-decoration: none;
+    color: inherit;
+}
+
+.recipe-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 1.5rem;
+    justify-content: center;
+}
+
 
 .ingredient-list{
     text-align: center;
@@ -22,9 +49,6 @@ ul, ol {
 }
 
 
-#homelist {
-    font-size: x-large;
-}
 
 .homepage {
     color: powderblue;
@@ -36,25 +60,9 @@ p {
     font-size: 14px;
 }
 
-h2 {
-    font-size: 20px;
-}
-
 li {
     width: 40vw;
     overflow-wrap: break-word;
     height: auto;
     font-size: large;
-}
-
-li.steak {
-    color: salmon;
-}
-
-li.cookies {
-    color: tan;
-}
-
-li.poppers {
-    color: whitesmoke;
 }
