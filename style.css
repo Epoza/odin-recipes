@@ -23,6 +23,8 @@ body {
     border: 1px solid transparent;
     margin-right: 10px;
     margin-bottom: 1px;
+    font-size: 17px;
+    font-weight: 900;
 }
 
 /* Removes list style */
